@@ -1,2 +1,6 @@
+#!/usr/bin/env bash
+
+cat << EOF
 Documentation: https://speckit.org
 GitHub: https://github.com/github/spec-kit
+EOF

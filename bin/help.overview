@@ -1,4 +1,8 @@
+#!/usr/bin/env bash
+
+cat << EOF
 Specify CLI plugin for the asdf version manager.
 
 Specify CLI is part of Spec Kit from GitHub (github.com/github/spec-kit).
 It helps you work with API specifications and validate OpenAPI documents.
+EOF
