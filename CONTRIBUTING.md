@@ -20,7 +20,7 @@ Before submitting a PR, please test your changes:
 
 ```bash
 # Test listing versions
-asdf plugin test specify-cli https://github.com/p1c2u/asdf-specify-cli.git "specify --version"
+asdf plugin test specify-cli https://github.com/p1c2u/asdf-specify-cli.git "specify --help"
 ```
 
 ## Code Style

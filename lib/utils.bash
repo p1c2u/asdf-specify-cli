@@ -3,7 +3,7 @@
 set -euo pipefail
 
 TOOL_NAME="specify-cli"
-TOOL_TEST="specify --version"
+TOOL_TEST="specify --help"
 
 fail() {
   echo -e "asdf-${TOOL_NAME}: $*"

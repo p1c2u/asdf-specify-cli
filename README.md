@@ -41,7 +41,7 @@ asdf install specify-cli latest
 asdf global specify-cli latest
 
 # Now specify-cli commands are available
-specify --version
+specify --help
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to install & manage versions.
@@ -51,11 +51,14 @@ Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on ho
 After installation, you can use the `specify` command:
 
 ```shell
-# Check version
-specify --version
-
 # Get help
 specify --help
+
+# Initialize a new project
+specify init
+
+# Check required tools
+specify check
 ```
 
 For more information about Specify CLI usage, visit the [official documentation](https://speckit.org).
