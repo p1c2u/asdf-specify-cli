@@ -4,7 +4,7 @@
 
 Specify CLI plugin for the [asdf version manager](https://asdf-vm.com).
 
-Specify CLI is part of [Spec Kit](https://github.com/github/spec-kit) from GitHub. It helps you work with API specifications and validate OpenAPI documents.
+Specify CLI is part of [Spec Kit](https://github.com/github/spec-kit) from GitHub, a toolkit to help you get started with Spec-Driven Development.
 
 ## Contents
 
