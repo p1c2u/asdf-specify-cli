@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cat << EOF
+python3
+pip
+EOF

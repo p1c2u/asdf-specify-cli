@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+cat << EOF
+Specify CLI plugin for the asdf version manager.
+
+Specify CLI is part of Spec Kit, a toolkit to help you get started with Spec-Driven Development.
+EOF
