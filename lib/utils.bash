@@ -74,9 +74,9 @@ install_version() {
     # Create a virtual environment in the install path
     python3 -m venv "$install_path/venv" || fail "Could not create virtual environment"
     
-    # Install the package
-    "$install_path/venv/bin/pip" install --upgrade pip setuptools wheel || fail "Could not upgrade pip"
-    "$install_path/venv/bin/pip" install "$extracted_dir" || fail "Could not install ${TOOL_NAME}"
+    # Try to install the package (pip upgrade is optional if it fails)
+    "$install_path/venv/bin/pip" install --upgrade --timeout 300 pip setuptools wheel 2>/dev/null || echo "Warning: Could not upgrade pip, continuing with existing version"
+    "$install_path/venv/bin/pip" install --timeout 300 "$extracted_dir" || fail "Could not install ${TOOL_NAME}"
     
     # Create a wrapper script
     cat > "$install_path/bin/specify" << EOF
