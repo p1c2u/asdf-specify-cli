@@ -1,0 +1,26 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "asdf",
+    "speckit",
+    "Maciag",
+    "shellcheck",
+    "pyproject",
+    "venv",
+    "tarball",
+    "tarballs",
+    "httpx",
+    "typer",
+    "platformdirs",
+    "readchar",
+    "truststore",
+    "pygments",
+    "shellingham"
+  ],
+  "ignorePaths": [
+    ".git",
+    "node_modules",
+    "*.lock"
+  ]
+}
