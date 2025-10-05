@@ -69,4 +69,4 @@ Contributions of any kind welcome! See the [contributing guide](CONTRIBUTING.md)
 
 ## License
 
-See [LICENSE](LICENSE) © [Artur Czepiel](https://github.com/p1c2u/)
+See [LICENSE](LICENSE) © [p1c2u](https://github.com/p1c2u/)
