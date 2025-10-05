@@ -3,6 +3,6 @@
 cat << EOF
 Specify CLI plugin for the asdf version manager.
 
-Specify CLI is part of Spec Kit from GitHub (github.com/github/spec-kit).
+Specify CLI is part of Spec Kit a toolkit to help you get started with Spec-Driven Development
 It helps you work with API specifications and validate OpenAPI documents.
 EOF
