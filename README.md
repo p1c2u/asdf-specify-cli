@@ -38,7 +38,7 @@ asdf list-all specify-cli
 asdf install specify-cli latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global specify-cli latest
+asdf set specify-cli latest
 
 # Now specify-cli commands are available
 specify --help
