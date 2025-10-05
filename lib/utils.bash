@@ -40,7 +40,7 @@ download_release() {
   url="https://github.com/github/spec-kit/archive/refs/tags/v${version}.tar.gz"
 
   echo "* Downloading ${TOOL_NAME} release ${version}..."
-  curl "${curl_opts[@]}" -o "$filename" -C - "$url" || fail "Could not download $url"
+  curl "${curl_opts[@]}" -o "$filename" "$url" || fail "Could not download $url"
 }
 
 install_version() {
