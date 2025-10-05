@@ -18,5 +18,5 @@ jobs:
 
       - name: Run shellcheck
         run: |
-          shellcheck bin/list-all bin/download bin/install
+          shellcheck bin/*
           shellcheck lib/*.bash
